@@ -642,6 +642,7 @@ GameObject:
   - component: {fileID: 775163114}
   - component: {fileID: 775163113}
   - component: {fileID: 775163112}
+  - component: {fileID: 775163116}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -722,6 +723,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &775163116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775163111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 845fdf6993927fc4a893ffd71804594a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &778710262
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,6 +1634,7 @@ GameObject:
   - component: {fileID: 1961335174}
   - component: {fileID: 1961335173}
   - component: {fileID: 1961335172}
+  - component: {fileID: 1961335176}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1679,7 +1693,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -1711,6 +1725,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1961335176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961335171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7672983548d9dea4d99e0b4f12c07f62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movingUp: 0
+  movingDown: 0
+  movingLeft: 0
+  movingRight: 0
 --- !u!1 &1992080681
 GameObject:
   m_ObjectHideFlags: 0
