@@ -848,7 +848,7 @@ GameObject:
   - component: {fileID: 981498261}
   m_Layer: 5
   m_Name: Down
-  m_TagString: Untagged
+  m_TagString: DownArrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -966,7 +966,7 @@ GameObject:
   - component: {fileID: 983282758}
   m_Layer: 5
   m_Name: Up
-  m_TagString: Untagged
+  m_TagString: UpArrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1084,7 +1084,7 @@ GameObject:
   - component: {fileID: 1118117874}
   m_Layer: 5
   m_Name: Right
-  m_TagString: Untagged
+  m_TagString: RightArrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1650,7 +1650,7 @@ GameObject:
   - component: {fileID: 1992080683}
   m_Layer: 5
   m_Name: Left
-  m_TagString: Untagged
+  m_TagString: LeftArrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1821,5 +1821,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1675268745221171947, guid: e38b9fbe3dfecae428fe73be7795500d,
+        type: 3}
+      propertyPath: movement
+      value: 
+      objectReference: {fileID: 1961335176}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e38b9fbe3dfecae428fe73be7795500d, type: 3}

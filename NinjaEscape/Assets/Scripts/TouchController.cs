@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TouchController : MonoBehaviour
 {
-    public bool movingUp;
+    public static bool movingUp;
     public bool movingDown;
     public bool movingLeft;
     public bool movingRight;
@@ -26,6 +26,7 @@ public class TouchController : MonoBehaviour
                 if (hit.collider.gameObject.CompareTag("UpArrow"))
                 {
                     movingUp = true;
+                    Debug.Log("Touched Up!");
                 }
                 else
                 {

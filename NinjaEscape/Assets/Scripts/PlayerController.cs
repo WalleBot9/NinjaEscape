@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 5;
-    TouchController touch;
+    float speed = 5;
+    float jumpForce = 8.0f;
+    bool jumping = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
+        }
+        if (TouchController.movingUp)
+        {
+            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+            Debug.Log("Going up!");
         }
     }
 }
