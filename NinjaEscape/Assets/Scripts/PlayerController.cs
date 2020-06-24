@@ -7,6 +7,10 @@ public class PlayerController : MonoBehaviour
     float speed = 5;
     float jumpForce = 8.0f;
     bool jumping = false;
+    public GameObject bullet;
+    public bool canShoot;
+    public float timeBetweenShots = 1;
+    private float timeUntilNextShot;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +39,20 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
             Debug.Log("Going up!");
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+
+        }
+        if (Time.time > timeUntilNextShot)
+        {
+            canShoot = true;
+        }
+        if (Input.GetMouseButtonDown(0) && canShoot)
+        {
+            canShoot = false;
+            timeUntilNextShot = Time.time + timeBetweenShots;
+            Instantiate(bullet, this.transform.position, this.transform.rotation);
         }
     }
 }
