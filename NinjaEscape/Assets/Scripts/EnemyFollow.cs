@@ -17,5 +17,9 @@ public class EnemyFollow : MonoBehaviour
     void Update()
     {
         transform.LookAt(player.transform);
+        if (Vector3.Distance(transform.position, player.transform.position) <= radius)
+        {
+            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        }
     }
 }
