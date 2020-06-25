@@ -54,5 +54,15 @@ public class PlayerController : MonoBehaviour
             timeUntilNextShot = Time.time + timeBetweenShots;
             Instantiate(bullet, this.transform.position, this.transform.rotation);
         }
+        float mouseInput = Input.GetAxis("Mouse X");
+        Vector3 lookhere = new Vector3(0, mouseInput, 0);
+        transform.Rotate(lookhere);
+    }
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+            jumping = false;
+        }
     }
 }
