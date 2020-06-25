@@ -5,6 +5,9 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     public float speed = 10;
+    public int x = 15;
+    public int y = 15;
+    public int z = 15;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,5 +18,6 @@ public class BulletScript : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.Rotate(new Vector3(x, y, z) * Time.deltaTime);
     }
 }
