@@ -21,6 +21,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float mouseInput = Input.GetAxis("Mouse X");
+        Vector3 lookhere = new Vector3(0, mouseInput, 0);
+        transform.Rotate(lookhere);
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
@@ -61,12 +64,12 @@ public class PlayerController : MonoBehaviour
             timeUntilNextShot = Time.time + timeBetweenShots;
             Instantiate(bullet, this.transform.position, this.transform.rotation);
         }
-        void OnCollisionEnter(Collision other)
+    }
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
         {
-            if (other.gameObject.CompareTag("Ground"))
-            {
-                jumping = false;
-            }
+            jumping = false;
         }
     }
 }
