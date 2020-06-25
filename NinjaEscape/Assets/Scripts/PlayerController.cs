@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     float speed = 5;
-    float jumpForce = 8.0f;
+    float jumpForce = 7.5f;
     bool jumping = false;
     public GameObject bullet;
     public bool canShoot;
@@ -21,8 +21,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float mouseInput = Input.GetAxis("Mouse X");
+        Vector3 lookhere = new Vector3(0, mouseInput, 0);
+        transform.Rotate(lookhere);
+
         if (Input.GetKey(KeyCode.W))
         {
+            Debug.Log("W Pressed");
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.A))
@@ -37,19 +42,11 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
-        if (Input.GetButtonDown("Jump") && jumping == false)
-        {
-            jumping = true;
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        }
-        if (TouchController.movingUp)
-        {
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
-            Debug.Log("Going up!");
-        }
-        if (Input.GetKey(KeyCode.Space))
-        {
 
+        if (Input.GetButtonDown("Jump"))
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            jumping = true;
         }
         if (Time.time > timeUntilNextShot)
         {
@@ -61,12 +58,13 @@ public class PlayerController : MonoBehaviour
             timeUntilNextShot = Time.time + timeBetweenShots;
             Instantiate(bullet, this.transform.position, this.transform.rotation);
         }
-        void OnCollisionEnter(Collision other)
+       
+    }
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
         {
-            if (other.gameObject.CompareTag("Ground"))
-            {
-                jumping = false;
-            }
+            jumping = false;
         }
     }
 }

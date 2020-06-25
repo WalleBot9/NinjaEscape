@@ -249,7 +249,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1bc6783d1f6eb654aa62039ab5fb075f, type: 2}
+  - {fileID: 2100000, guid: 04b4b2a456512e44ab714347178b0ad3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 123001777}
   m_Layer: 0
   m_Name: TutFloor (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -801,7 +801,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1bc6783d1f6eb654aa62039ab5fb075f, type: 2}
+  - {fileID: 2100000, guid: 04b4b2a456512e44ab714347178b0ad3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1488,7 +1488,7 @@ GameObject:
   - component: {fileID: 339267118}
   m_Layer: 0
   m_Name: LavaFloor (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1714,7 +1714,7 @@ GameObject:
   - component: {fileID: 387440412}
   m_Layer: 0
   m_Name: LavaFloor (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2174,7 +2174,7 @@ GameObject:
   - component: {fileID: 458380068}
   m_Layer: 0
   m_Name: CourtGrass
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2266,7 +2266,7 @@ GameObject:
   - component: {fileID: 490355790}
   m_Layer: 0
   m_Name: LavaFloor (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2542,7 +2542,7 @@ GameObject:
   - component: {fileID: 578050631}
   m_Layer: 0
   m_Name: CourtGrass (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2803,7 +2803,7 @@ GameObject:
   - component: {fileID: 626172179}
   m_Layer: 0
   m_Name: TutFloor (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3355,7 +3355,7 @@ GameObject:
   - component: {fileID: 772452023}
   m_Layer: 0
   m_Name: LavaFloor (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4322,7 +4322,7 @@ GameObject:
   - component: {fileID: 1046811897}
   m_Layer: 0
   m_Name: LavaFloor (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4680,7 +4680,7 @@ GameObject:
   - component: {fileID: 1105372199}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5107,7 +5107,7 @@ GameObject:
   - component: {fileID: 1168145522}
   m_Layer: 0
   m_Name: LavaFloor (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5248,7 +5248,7 @@ GameObject:
   - component: {fileID: 1196281770}
   m_Layer: 0
   m_Name: LavaFloor (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5525,7 +5525,7 @@ GameObject:
   - component: {fileID: 1243200090}
   m_Layer: 0
   m_Name: LavaFloor (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5617,7 +5617,7 @@ GameObject:
   - component: {fileID: 1256054086}
   m_Layer: 0
   m_Name: LavaFloor (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6219,7 +6219,7 @@ GameObject:
   - component: {fileID: 1582319991}
   m_Layer: 0
   m_Name: LavaFloor (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7003,8 +7003,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736339397}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5100002, y: 2.73, z: 1.5506765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.51, y: 1.571, z: -1.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1105001904}
@@ -7394,7 +7394,7 @@ GameObject:
   - component: {fileID: 1807529596}
   m_Layer: 0
   m_Name: TutFloor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7549,6 +7549,112 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868073324}
   m_CullTransparentMesh: 0
+--- !u!1 &1876059192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1876059196}
+  - component: {fileID: 1876059195}
+  - component: {fileID: 1876059194}
+  - component: {fileID: 1876059193}
+  - component: {fileID: 1876059197}
+  m_Layer: 0
+  m_Name: Enemy
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1876059193
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876059192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1876059194
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876059192}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9e65b3153c43da548bc4a06e5411567e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1876059195
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876059192}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1876059196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876059192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 39.87, y: 1.89, z: 29.04518}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1876059197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876059192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e980a6f22553a443901d6a2ac9b22dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1901715118}
 --- !u!1 &1886352663
 GameObject:
   m_ObjectHideFlags: 0
@@ -7563,7 +7669,7 @@ GameObject:
   - component: {fileID: 1886352665}
   m_Layer: 0
   m_Name: LavaFloor (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7733,6 +7839,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895915461}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1901715118 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675268745221171936, guid: e38b9fbe3dfecae428fe73be7795500d,
+    type: 3}
+  m_PrefabInstance: {fileID: 931535600916138044}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1901715123
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901715118}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1907293796
 GameObject:
   m_ObjectHideFlags: 0
@@ -7917,88 +8045,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942456910}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
---- !u!1 &1190963782
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1190963783}
-  m_Layer: 0
-  m_Name: Bridge
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1190963783
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1190963782}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.607067, y: -15.27962, z: 28.822924}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2016627512}
-  - {fileID: 1377560337}
-  - {fileID: 311609383}
-  - {fileID: 2026707740}
-  - {fileID: 1045079870}
-  - {fileID: 786589186}
-  - {fileID: 1955706208}
-  - {fileID: 1689578740}
-  - {fileID: 1975746131}
-  - {fileID: 710878637}
-  - {fileID: 2031377626}
-  - {fileID: 727781525}
-  - {fileID: 1895915462}
-  - {fileID: 2061828858}
-  - {fileID: 22934676}
-  - {fileID: 1907293797}
-  - {fileID: 1634959879}
-  - {fileID: 186272490}
-  - {fileID: 84878931}
-  m_Father: {fileID: 383676080}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1317514609 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1675268745221171936, guid: e38b9fbe3dfecae428fe73be7795500d,
-    type: 3}
-  m_PrefabInstance: {fileID: 931535600916138044}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1317514614 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
-    type: 3}
-  m_PrefabInstance: {fileID: 931535600916138044}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1317514615
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317514609}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
---- !u!1 &1377560336
-=======
 --- !u!1 &1950501380
->>>>>>> c8183761eec02429b29573c95bedd36b4e82b1e8
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8197,7 +8244,7 @@ GameObject:
   - component: {fileID: 1961335172}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8391,7 +8438,7 @@ GameObject:
   - component: {fileID: 1989294659}
   m_Layer: 0
   m_Name: LavaFloor (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9463,7 +9510,7 @@ GameObject:
   - component: {fileID: 2097747300}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9555,7 +9602,7 @@ GameObject:
   - component: {fileID: 2131989357}
   m_Layer: 0
   m_Name: LavaFloor (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9739,7 +9786,7 @@ GameObject:
   - component: {fileID: 2145353472}
   m_Layer: 0
   m_Name: LavaFloor (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9901,41 +9948,49 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
         type: 3}
-<<<<<<< HEAD
-      propertyPath: m_LocalRotation.w
-      value: 0.7071075
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071062
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 1675268745221171948, guid: e38b9fbe3dfecae428fe73be7795500d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90.00001
+      value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 1675268745221171947, guid: e38b9fbe3dfecae428fe73be7795500d,
-        type: 3}
-      propertyPath: bullet
-      value: 
-      objectReference: {fileID: 3693919296785081200, guid: 7f3d23da9eaade2478ae1b33ef7f0324,
-        type: 3}
-=======
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
->>>>>>> c8183761eec02429b29573c95bedd36b4e82b1e8
     - target: {fileID: 931535601281828059, guid: e38b9fbe3dfecae428fe73be7795500d,
         type: 3}
       propertyPath: m_Name
@@ -9995,6 +10050,10 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736339400, guid: e38b9fbe3dfecae428fe73be7795500d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e38b9fbe3dfecae428fe73be7795500d, type: 3}
