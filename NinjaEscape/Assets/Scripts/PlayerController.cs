@@ -5,15 +5,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     float speed = 5;
-    float jumpForce = 8.0f;
+    float jumpForce = 7.5f;
     bool jumping = false;
     public GameObject bullet;
     public bool canShoot;
     public float timeBetweenShots = 1;
     private float timeUntilNextShot;
+    Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
+            Debug.Log("W Pressed");
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.A))
@@ -39,14 +42,11 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
-        if (TouchController.movingUp)
-        {
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
-            Debug.Log("Going up!");
-        }
-        if (Input.GetKey(KeyCode.Space))
-        {
 
+        if (Input.GetButtonDown("Jump"))
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            jumping = true;
         }
         if (Time.time > timeUntilNextShot)
         {
