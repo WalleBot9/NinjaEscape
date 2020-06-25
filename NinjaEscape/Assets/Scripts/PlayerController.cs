@@ -11,9 +11,11 @@ public class PlayerController : MonoBehaviour
     public bool canShoot;
     public float timeBetweenShots = 1;
     private float timeUntilNextShot;
+    Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -35,6 +37,11 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
+        if (Input.GetButtonDown("Jump") && jumping == false)
+        {
+            jumping = true;
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
         if (TouchController.movingUp)
         {
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
@@ -53,6 +60,13 @@ public class PlayerController : MonoBehaviour
             canShoot = false;
             timeUntilNextShot = Time.time + timeBetweenShots;
             Instantiate(bullet, this.transform.position, this.transform.rotation);
+        }
+        void OnCollisionEnter(Collision other)
+        {
+            if (other.gameObject.CompareTag("Ground"))
+            {
+                jumping = false;
+            }
         }
     }
 }
