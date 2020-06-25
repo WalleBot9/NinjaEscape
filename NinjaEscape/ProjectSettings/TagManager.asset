@@ -10,6 +10,7 @@ TagManager:
   - LeftArrow
   - Bullet
   - Enemy
+  - Ground
   layers:
   - Default
   - TransparentFX
