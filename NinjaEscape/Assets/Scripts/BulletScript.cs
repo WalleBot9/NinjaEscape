@@ -20,4 +20,11 @@ public class BulletScript : MonoBehaviour
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
         transform.Rotate(new Vector3(x, y, z) * Time.deltaTime);
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            other.gameObject.SetActive(false);
+        }
+    }
 }
