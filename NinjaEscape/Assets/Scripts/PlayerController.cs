@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
             transform.Translate(Vector3.right * speed * Time.deltaTime);
         }
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && jumping == false)
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             jumping = true;
