@@ -105,3 +105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 845fdf6993927fc4a893ffd71804594a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bullet: {fileID: 4690382364317666106, guid: ca180fbcc48787e4dacd54c8611f898e, type: 3}
+  canShoot: 0
+  timeBetweenShots: 1
