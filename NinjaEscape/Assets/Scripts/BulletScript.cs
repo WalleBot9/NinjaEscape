@@ -18,7 +18,7 @@ public class BulletScript : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
-        transform.Rotate(new Vector3(x, y, z) * Time.deltaTime);
+//        transform.Rotate(new Vector3(x, y, z) * Time.deltaTime);
     }
     void OnTriggerEnter(Collider other)
     {

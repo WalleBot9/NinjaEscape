@@ -66,5 +66,9 @@ public class PlayerController : MonoBehaviour
         {
             jumping = false;
         }
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+
+        }
     }
 }
