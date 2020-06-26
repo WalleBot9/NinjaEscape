@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3259062946592733882}
   - component: {fileID: 6501031807058459814}
   - component: {fileID: 5028412710055085547}
-  - component: {fileID: -4566918157511352847}
+  - component: {fileID: 654422338636274927}
   m_Layer: 0
   m_Name: real shuriken
   m_TagString: Bullet
@@ -128,7 +128,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!95 &-4566918157511352847
+--- !u!95 &654422338636274927
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ Animator:
   m_GameObject: {fileID: 3693919296785081200}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c4f9a734b169da7479beef2cfed33ce3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

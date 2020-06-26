@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            Debug.Log("W Pressed");
+            //Debug.Log("W Pressed");
             transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.A))
@@ -71,4 +71,13 @@ public class PlayerController : MonoBehaviour
 
         }
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("key1"))
+        {
+            other.gameObject.SetActive(false);
+            Debug.Log("Key has been touched!");
+        }
+    }
+
 }
