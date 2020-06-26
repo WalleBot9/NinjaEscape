@@ -11,6 +11,8 @@ TagManager:
   - Bullet
   - Enemy
   - Ground
+  - key1
+  - key2
   layers:
   - Default
   - TransparentFX

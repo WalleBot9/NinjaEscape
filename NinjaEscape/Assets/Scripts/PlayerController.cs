@@ -70,5 +70,10 @@ public class PlayerController : MonoBehaviour
         {
 
         }
+        if (other.gameObject.CompareTag("key1"))
+        {
+            other.gameObject.SetActive(false);
+        }
     }
+
 }
