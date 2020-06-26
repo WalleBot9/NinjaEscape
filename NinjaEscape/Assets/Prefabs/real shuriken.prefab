@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3259062946592733882}
   - component: {fileID: 6501031807058459814}
   - component: {fileID: 5028412710055085547}
-  - component: {fileID: 1025107315}
+  - component: {fileID: -4566918157511352847}
   m_Layer: 0
   m_Name: real shuriken
   m_TagString: Bullet
@@ -30,10 +30,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3693919296785081200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.35, y: 2.293, z: -1.488}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.077924, z: 1}
   m_Children:
-  - {fileID: 3371724821444725842}
+  - {fileID: 1825123173734898407}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -128,7 +128,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!95 &1025107315
+--- !u!95 &-4566918157511352847
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ Animator:
   m_GameObject: {fileID: 3693919296785081200}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c4f9a734b169da7479beef2cfed33ce3, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -249,11 +249,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 2.571
       objectReference: {fileID: 0}
+    - target: {fileID: 4670842179737251740, guid: ca180fbcc48787e4dacd54c8611f898e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 4670842179737251740, guid: ca180fbcc48787e4dacd54c8611f898e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.55
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca180fbcc48787e4dacd54c8611f898e, type: 3}
---- !u!4 &3371724821444725842 stripped
+--- !u!4 &1825123173734898407 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8596470296121162025, guid: ca180fbcc48787e4dacd54c8611f898e,
+  m_CorrespondingSourceObject: {fileID: 4670842179737251740, guid: ca180fbcc48787e4dacd54c8611f898e,
     type: 3}
   m_PrefabInstance: {fileID: 6450854426896446843}
   m_PrefabAsset: {fileID: 0}
