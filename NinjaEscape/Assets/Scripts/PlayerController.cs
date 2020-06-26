@@ -1,9 +1,12 @@
-﻿using System.Collections;
+﻿using JetBrains.Annotations;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject gate;
+    public GameObject gate1;
     float speed = 5;
     float jumpForce = 7.5f;
     bool jumping = false;
@@ -77,6 +80,13 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             Debug.Log("Key has been touched!");
+            gate.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("key2"))
+        {
+            other.gameObject.SetActive(false);
+            Debug.Log("Key1 has been touched!");
+            gate1.gameObject.SetActive(false);
         }
     }
 
