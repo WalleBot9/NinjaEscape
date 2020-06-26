@@ -6,7 +6,7 @@ public class EnemyFollow : MonoBehaviour
 {
     public GameObject player;
     float speed = 4;
-    float radius = 5;
+    float radius = 20;
     // Start is called before the first frame update
     void Start()
     {
